@@ -9,11 +9,11 @@ export default function Home() {
   return (
     <PageMaster>
       <div className="col-12 mt-2 row border">
-        <div className="col-4 py-2">
-          <img className="rounded-circle col-md-8 col-sm-12" src="https://media-exp1.licdn.com/dms/image/C5603AQFarFYEvl3RNw/profile-displayphoto-shrink_200_200/0/1559159511281?e=1634774400&v=beta&t=j7zZ03s9UiEMjTsTupqdx3a8SgtjPlRYxUGz4VCyDvE" 
+        <div className="col-4 py-2 d-none d-lg-block">
+          <img className="rounded-circle col-8" src="https://media-exp1.licdn.com/dms/image/C5603AQFarFYEvl3RNw/profile-displayphoto-shrink_200_200/0/1559159511281?e=1634774400&v=beta&t=j7zZ03s9UiEMjTsTupqdx3a8SgtjPlRYxUGz4VCyDvE" 
           alt="Lucas Bova" />
         </div>
-        <div className="col-8 py-2">
+        <div className="col-lg-8 py-2 col-sm-12">
           <h3>Welcome to the portfolio website for Lucas Bova!</h3>
           <h5>A quick introduction to this site</h5>
           <p>This portfolio was designed to showcase the skills and abilities I have gained through years of education and expireience. Skills are demonstrated through practical 
